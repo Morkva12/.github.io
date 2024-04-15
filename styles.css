@@ -1,0 +1,124 @@
+header {
+    background: #5353B9; /* Цвет фона шапки */
+    color: #fff;
+}
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap')
+.header-content {
+    font-family: "Francois One", sans-serif;
+
+    padding: 0 10px; /* Отступы слева и справа */
+}
+
+.logo-title-wrapper {
+    display: flex;
+    align-items: center;
+    /* Добавьте пространство между логотипом и названием */
+    gap: 20px;
+}
+
+.logo {
+    height: 73px;
+    width: auto;
+}
+
+.contact-info {
+    text-align: right;
+}
+
+.contact-info .phone-number,
+.contact-info .email-address {
+    line-height: 1.2;
+}
+
+.promo-section {
+    background-size: cover;
+}
+
+.promo-img {
+    width: auto;
+    height: auto;
+}
+/* Стилизация кнопки в соответствии с вашим дизайном */
+.btn-primary, .promo-button {
+    background-color: #E57C30; /* Ваш основной цвет для кнопок */
+    border-color: #E57C30; /* Ваш основной цвет границ для кнопок */
+}
+
+/* Стили для изменения состояния наведения кнопки, если нужно */
+.btn-primary:hover, .promo-button:hover {
+    background-color: #d2691e; /* Темный оттенок для наведения */
+    border-color: #d2691e; /* Темный оттенок границ для наведения */
+}
+
+.promo-button {
+    background: #DE8938;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+/* Второй блок текста*/
+.benefits-section {
+    background-color: #f8f9fa; /* Цвет фона для секции */
+}
+
+.benefits-section h2 {
+    color: #000; /* Цвет заголовка */
+    font-size: 1.5rem; /* Размер шрифта */
+}
+
+.benefits-section p {
+    color: #555; /* Цвет абзацев */
+}
+/* Третий блок текста*/
+.gallery-section {
+    /* При необходимости добавьте сюда дополнительные стили */
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Убедитесь, что изображения красиво обрезаются или покрывают всю область карточки */
+}
+/* Четвертый блок текста про изготовление*/
+
+.wood-section {
+    background-color: #f7f7f7; /* Легкий фон для секции, если нужен */
+}
+
+.wood-section h2 {
+    color: #333; /* Темно-серый цвет текста для заголовка */
+}
+
+.wood-section p {
+    color: #666; /* Серый цвет текста для абзаца */
+}
+
+/* Пятый блок про изготовление */
+
+.request-section {
+    background-color: #ffffff; /* Цвет фона для секции */
+    /* Другие стили, если необходимо */
+}
+
+.request-section h2 {
+    text-align: center; /* Заголовок по центру */
+}
+
+.form-control {
+    margin-bottom: 15px; /* Отступ для элементов формы */
+}
+
+/* Стилизация кнопки в соответствии с вашим дизайном */
+.btn-primary {
+    background-color: #E57C30; /* Ваш основной цвет для кнопок */
+    border-color: #E57C30; /* Ваш основной цвет границ для кнопок */
+}
+
+/* Стили для изменения состояния наведения кнопки, если нужно */
+.btn-primary:hover {
+    background-color: #d2691e; /* Темный оттенок для наведения */
+    border-color: #d2691e; /* Темный оттенок границ для наведения */
+}
